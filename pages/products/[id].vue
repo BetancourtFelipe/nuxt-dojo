@@ -1,0 +1,15 @@
+<template>
+  <div>
+    <p>Products detail for {{ id }}</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus praesentium quam sit temporibus voluptates repudiandae, dolores eum vitae similique placeat?
+    </p>
+  </div>
+</template>
+
+<script setup>
+const { id } = useRoute().params
+</script>
+
+<style scoped>
+
+</style>
